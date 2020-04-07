@@ -2,184 +2,137 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>叮当猫123</title>
-<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
-<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
-<script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
-<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<title>疫情防护</title>
 <style type="text/css">
 body {
-	background-color: #0F9;
+	background-color: #9FC;
 }
 </style>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.btn-block {width:100%;text-align:center}
+.btn-large-mktg {padding:20px 32px;font-size:16px}
+.btn-mktg {-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-appearance:none;-moz-appearance:none}
+.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
+.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
+.btn-mktg {display:inline-block;padding:16px 24px;font-size:14px;font-weight:500;color:#fff;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:#1074e7;border:1px solid #1074e7;border-radius:3px;transition:.2s;-webkit-appearance:none;-moz-appearance:none}
+.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
+.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
+.btn-primary-mktg {background-color:#2ebc4f;border-color:#2ebc4f}
+.f4 {font-size:16px!important}
+.f4 {font-size:16px!important}
+.form-control {padding:6px 8px;line-height:20px;color:#24292e;vertical-align:middle;background-color:#fff;background-repeat:no-repeat;background-position:right 8px center;border:1px solid #d1d5da;border-radius:3px;outline:none;box-shadow:inset 0 1px 2px rgba(27,31,35,.075)}
+.form-control {border-color:#2188ff;outline:none;box-shadow:inset 0 1px 2px rgba(27,31,35,.075),0 0 0 .2em rgba(3,102,214,.3)}
+.form-control {font-size:14px}
+.form-group {margin:15px 0}
+.form-select {border-color:#2188ff;outline:none;box-shadow:inset 0 1px 2px rgba(27,31,35,.075),0 0 0 .2em rgba(3,102,214,.3)}
+.h4 {font-weight:600!important}
+.h5 {font-size:14px!important}
+.h5 {font-weight:600!important}
+.input-block {display:block}
+.mb-0 {margin-bottom:0!important}
+.mb-0 {margin-bottom:0!important}
+.mb-0 {margin-bottom:0!important}
+.mb-3 {margin-bottom:16px!important}
+.mb-3 {margin-bottom:16px!important}
+.mt-0 {margin-top:0!important}
+.mt-0 {margin-top:0!important}
+.mt-0 {margin-top:0!important}
+.mt-3 {margin-top:16px!important}
+.mt-3 {margin-top:16px!important}
+.mt-3 {margin-top:16px!important}
+.my-3 {margin-top:16px!important;margin-bottom:16px!important}
+.my-3 {margin-bottom:16px!important}
+.my-3 {margin-top:16px!important}
+.my-3 {margin-bottom:16px!important}
+.my-3 {margin-top:16px!important}
+.text-gray-dark {color:#24292e!important}
+.tooltipped {position:relative}
+.tooltipped-n:after {transform:translateX(50%)}
+.tooltipped-s:after {top:100%;right:50%;margin-top:6px}
+.tooltipped-s:after {transform:translateX(50%)}
+.tooltipped-s:before {top:auto;right:50%;bottom:-7px;margin-right:-6px;border-bottom-color:#1b1f23}
+.tooltipped-se:after {top:100%;right:50%;margin-top:6px}
+.tooltipped-se:before {top:auto;right:50%;bottom:-7px;margin-right:-6px;border-bottom-color:#1b1f23}
+.tooltipped-sw:after {top:100%;right:50%;margin-top:6px}
+.tooltipped-sw:before {top:auto;right:50%;bottom:-7px;margin-right:-6px;border-bottom-color:#1b1f23}
+.tooltipped:after {z-index:1000000;padding:.5em .75em;font:normal normal 11px/1.5 -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;-webkit-font-smoothing:subpixel-antialiased;color:#fff;text-align:center;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-wrap:break-word;white-space:pre;content:attr(aria-label);background:#1b1f23;border-radius:3px}
+.tooltipped:after {position:absolute;display:none;pointer-events:none;opacity:0}
+.tooltipped:before {position:absolute;display:none;pointer-events:none;opacity:0}
+.tooltipped:before {z-index:1000001;width:0;height:0;color:#1b1f23;content:"";border:6px solid transparent}
+</style>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
-<body onload="MM_preloadImages('tp/微信图片_20200320110931.jpg','tp/微信图片_20200320110945.jpg')">
-<table width="1000" border="0" align="center">
-  <tr>
-    <td align="center" bgcolor="#00FFFF"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="149" height="26" id="FlashID3" title="5">
-      <param name="movie" value="tp/5.swf" />
-      <param name="quality" value="high" />
-      <param name="wmode" value="opaque" />
-      <param name="swfversion" value="8.0.35.0" />
-      <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
-      <param name="expressinstall" value="Scripts/expressInstall.swf" />
-      <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
-      <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="tp/5.swf" width="149" height="26">
-        <!--<![endif]-->
-        <param name="quality" value="high" />
-        <param name="wmode" value="opaque" />
-        <param name="swfversion" value="8.0.35.0" />
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
-        <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
-        <div>
-          <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
-          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" onclick="window.open('https://www.ixigua.com/i6791818885214503435/?fromvsogou=1&utm_source=sogou_duanshipin&utm_medium=sogou_referral&utm_campaign=cooperation')"/></a></p>
-        </div>
-        <!--[if !IE]>-->
-      </object>
-      <!--<![endif]-->
-    </object>
-      <br />
-      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="263" height="34" id="FlashID2" title="4">
-      <param name="movie" value="tp/4.swf" />
-      <param name="quality" value="high" />
-      <param name="wmode" value="opaque" />
-      <param name="swfversion" value="8.0.35.0" />
-      <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
-      <param name="expressinstall" value="Scripts/expressInstall.swf" />
-      <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
-      <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="tp/4.swf" width="263" height="34">
-        <!--<![endif]-->
-        <param name="quality" value="high" />
-        <param name="wmode" value="opaque" />
-        <param name="swfversion" value="8.0.35.0" />
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
-        <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
-        <div>
-          <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
-          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" onclick="window.open('https://www.ixigua.com/i6809801054754963976/?fromvsogou=1&utm_source=sogou_duanshipin&utm_medium=sogou_referral&utm_campaign=cooperation')"/></a></p>
-        </div>
-        <!--[if !IE]>-->
-      </object>
-      <!--<![endif]-->
-    </object>
-      <br />
-      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="85" height="31" id="FlashID" title="2">
-        <param name="movie" value="tp/2.swf" />
-        <param name="quality" value="high" />
-        <param name="wmode" value="opaque" />
-        <param name="swfversion" value="8.0.35.0" />
-        <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
-        <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
-        <!--[if !IE]>-->
-        <object type="application/x-shockwave-flash" data="tp/2.swf" width="85" height="31">
-          <!--<![endif]-->
-          <param name="quality" value="high" />
-          <param name="wmode" value="opaque" />
-          <param name="swfversion" value="8.0.35.0" />
-          <param name="expressinstall" value="Scripts/expressInstall.swf" />
-          <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
-          <div>
-            <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
-            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" onclick="window.open('https://www.ixigua.com/i6809801054754963976/?fromvsogou=1&utm_source=sogou_duanshipin&utm_medium=sogou_referral&utm_campaign=cooperation')"/></a></p>
-          </div>
-          <!--[if !IE]>-->
-        </object>
-        <!--<![endif]-->
-      </object>
-      <br />
-      <object id="疫情防护" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="142" height="38">
-        <param name="movie" value="tp/1.swf" />
-        <param name="quality" value="high" />
-        <param name="wmode" value="opaque" />
-        <param name="swfversion" value="8.0.35.0" />
-        <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
-        <param name="expressinstall" value="Scripts/expressInstall.swf" />
-        <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
-        <!--[if !IE]>-->
-        <object type="application/x-shockwave-flash" data="tp/1.swf" width="142" height="38">
-          <!--<![endif]-->
-          <param name="quality" value="high" />
-          <param name="wmode" value="opaque" />
-          <param name="swfversion" value="8.0.35.0" />
-          <param name="expressinstall" value="Scripts/expressInstall.swf" />
-          <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
-          <div>
-            <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
-            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" onclick="window.open('http://ddm123.xyz')"/></a></p>
-          </div>
-          <!--[if !IE]>-->
-        </object>
-        <!--<![endif]-->
-      </object>
-    <br /></td>
-  </tr>
-</table>
-<br />
-<table width="1000" border="0" align="center">
-  <tr>
-    <td align="left"><a href="Untitled-1.html" target="fudong" onmouseover="MM_swapImage('国内疫情','','tp/微信图片_20200320110931.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="tp/微信图片_20200320110949.jpg" name="国内疫情" width="100" height="60" id="国内疫情" /></a><a href="Untitled-2.html" target="fudong" onmouseover="MM_swapImage('国外疫情','','tp/微信图片_20200320110945.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="tp/微信图片_20200320110954.jpg" name="国外疫情" width="100" height="60" id="国外疫情" /></td>
-  </tr>
-  <tr>
-    <td align="left" bgcolor="#00CCFF"><iframe name="fudong" width="750" height="350" id="fudong"></iframe>    &nbsp;</td>
-  </tr>
-</table>
-<table width="1000" border="0" align="center">
-  <tr>
-    <td><div id="TabbedPanels1" class="TabbedPanels">
-      <ul class="TabbedPanelsTabGroup">
-        <li class="TabbedPanelsTab" tabindex="0">国内疫情</li>
-        <li class="TabbedPanelsTab" tabindex="0">国外疫情</li>
-      </ul>
-      <div class="TabbedPanelsContentGroup">
-        <div class="TabbedPanelsContent">1、<a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E2%80%9C%E7%A1%AC%E6%A0%B8%E2%80%9D%E9%98%B2%E7%96%AB%EF%BC%81%E5%B1%85%E6%B0%91%E9%9C%80%E7%A9%BF%E8%BF%875%E7%B1%B3%E9%95%BF%E6%B6%88%E6%AF%92%E9%80%9A%E9%81%93%E6%96%B9%E5%8F%AF%E8%BF%9B%E7%A4%BE%E5%8C%BA.mp4">&ldquo;硬核&rdquo;防疫！居民需穿过5米长消毒通道方可进社区</a><br />
-          2、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E7%94%A8%E5%8F%A3%E7%BD%A9%E8%A6%81%E6%B3%A8%E6%84%8F%EF%BC%8C%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E5%8F%A3%E7%BD%A9%E5%88%AB%E6%88%B4%E9%94%99%EF%BC%8C%E8%B5%B6%E7%B4%A7%E7%9C%8B%E7%9C%8B.mp4">用口罩要注意，常见的几种口罩别戴错，赶紧看看</a><br />
-          3、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E9%80%9A%E8%BF%87%E9%A5%AE%E9%A3%9F%E8%83%BD%E5%A2%9E%E5%8A%A0%E5%85%8D%E7%96%AB%E5%8A%9B%E5%90%97%EF%BC%9F%E8%90%A5%E5%85%BB%E4%B8%93%E5%AE%B6%E6%94%AF%E6%8B%9B.mp4">疫情期间通过饮食能增加免疫力吗？营养专家支招</a><br />
-          4、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E8%AE%93%E4%BA%BA%E6%9A%96%E5%BF%83%E7%9A%84%E7%88%B1%E5%BF%83%E9%98%B2%E7%96%AB%EF%BC%81%E5%B8%B6%E4%BD%A0%E8%AA%8D%E8%AD%98%E4%B8%AD%E5%9B%BD%E5%90%84%E5%9C%B0%E7%9A%84%20%E6%B4%BB%E8%8F%A9%E8%90%A8.mp4">讓人暖心的爱心防疫！帶你認識中国各地的 活菩萨</a><br />
-          5、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E7%A7%91%E6%99%AE%E7%9F%AD%E7%89%87%20%E6%95%99%E6%82%A8%E5%A6%82%E4%BD%95%E5%9C%A8%E5%AE%B6%E4%B8%AD%E9%98%B2%E7%96%AB.mp4">科普短片 教您如何在家中防疫</a><br />
-          6、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E8%87%B4%E6%95%AC%EF%BC%81%E9%98%B2%E7%96%AB%E8%80%85.mp4">致敬！防疫者</a></div>
-        <div class="TabbedPanelsContent">1、<a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E5%85%A8%E7%90%83%E6%88%98%E2%80%9C%E7%96%AB%E2%80%9D%EF%BC%8C%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%BA%9C%E9%A6%96%E6%89%B9%E6%8F%B4%E9%9F%A9%E7%89%A9%E8%B5%84%E4%BA%8E3%E6%9C%8811%E6%97%A5%E8%BF%90%E6%8A%B5%E9%9F%A9%E5%9B%BD.mp4"> 全球战&ldquo;疫&rdquo;，中国政府首批援韩物资于3月11日运抵韩国</a><br />
-          2、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E7%97%85%E6%AF%92%E6%8C%81%E7%BB%AD%E6%89%A9%E6%95%A3%20%E7%BE%8E%E5%9B%BD%E6%A3%80%E6%B5%8B%E8%83%BD%E5%8A%9B%E5%86%8D%E9%81%AD%E8%B4%A8%E7%96%91%EF%BC%9A%E7%BE%8E%E6%A3%80%E6%B5%8B%E8%83%BD%E5%8A%9B%E6%88%96%E9%9A%BE%E8%B7%9F%E4%B8%8A%E7%96%AB%E6%83%85%E8%94%93%E5%BB%B6%E9%80%9F%E5%BA%A6.mp4">病毒持续扩散 美国检测能力再遭质疑：美检测能力或难跟上疫情蔓延速度</a><br />
-          3、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E8%80%81%E6%8C%9D%E7%96%AB%E6%83%85%EF%BC%8C3%E5%A4%A9%E5%B7%A5%E8%B5%84%E4%B9%B0%E4%B8%80%E7%9B%92%E5%8F%A3%E7%BD%A9%EF%BC%8C%E4%B8%AD%E5%9B%BD%E5%B0%8F%E4%BC%99%E4%BA%B2%E8%87%AA%E5%8E%BB%E8%80%81%E6%8C%9D%E8%8D%AF%E5%BA%97%E8%AF%81%E5%AE%9E.mp4">老挝疫情，3天工资买一盒口罩，中国小伙亲自去老挝药店证实</a><br />
-          4、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E8%BF%99%E4%B8%80%E6%AC%A1%EF%BC%8C%E8%BD%AE%E5%88%B0%E7%BE%8E%E5%9B%BD%E2%80%9C%E6%B1%82%E6%95%91%E2%80%9D%E4%BA%86%EF%BC%81%E7%96%AB%E6%83%85%E6%8C%87%E6%95%B0%E7%88%86%E5%8F%91%EF%BC%8C%E4%B8%AD%E8%8D%AF%E5%9C%A8%E7%BA%BD%E7%BA%A6%E8%A2%AB%E7%96%AF%E6%8A%A2.mp4">这一次，轮到美国&ldquo;求救&rdquo;了！疫情指数爆发，中药在纽约被疯抢</a><br />
-          5、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E9%9F%A9%E5%9B%BD%E9%A6%96%E5%B0%94%E5%8F%91%E7%94%9F%E8%81%9A%E9%9B%86%E6%80%A7%E7%96%AB%E6%83%85%EF%BC%8C%E4%B8%AD%E6%96%B9%E7%B4%A7%E6%80%A5%E9%A9%B0%E6%8F%B42.5%E4%B8%87%E5%8F%AA%E5%8F%A3%E7%BD%A9%EF%BC%8C%E9%99%84%E8%B5%A0%E5%8F%A5%E5%B0%8F%E8%AF%97.mp4">韩国首尔发生聚集性疫情，中方紧急驰援2.5万只口罩，附赠句小诗</a><br />
-          6、 <a href="http://fysxhua.xicp.net/yiqing/shiping/4/%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E5%8D%87%E7%BA%A7%20%E4%B8%AD%E5%9B%BD%E8%A1%8C%E5%8A%A8%E6%8C%91%E8%B5%B7%E5%A4%A7%E5%9B%BD%E6%8B%85%E5%BD%93%EF%BC%81.mp4">全球疫情升级 中国行动挑起大国担当！</a></div>
-      </div>
-    </div></td>
-  </tr>
-</table>
-<br />
+<body>
+<div align="left">
+  <div align="center">
+    <table width="1607" height="483" border="0">
+      <tr>
+        <td width="387"><div align="center"><img src="tp/18网络2班 叶永盛(1).jpg" width="387" height="668" /></div></td>
+        <td width="210"><ul id="MenuBar1" class="MenuBarVertical">
+          <li><a href="index2.html">国内疫情</a></li>
+          <div align="center"></div>
+          <div align="center"></div>
+          <li><a href="#">国外疫情</a></li>
+          <div align="center"></div>
+          <div align="center"></div>
+          <li><a href="#">视频</a></li>
+          <li><a href="#">音乐</a></li>
+        </ul></td>
+        <td width="996"><input type="hidden" data-csrf="true" name="authenticity_token" value="I2ssiJnpur2PyPNDvVSUZFzyB41Db5WQWDr/W6j/Qw+YIQeb7B0V/t9I7aFd7IxytsFZX7cturcDnp739kEL1w==" />
+          <input type="hidden" name="ga_id" class="js-octo-ga-id-input" />
+          <auto-check src="/signup_check/username?source=homepage&amp;suggest_usernames=true">
+            <dl class="form-group mt-0">
+              <dt class="input-label">
+                <label class="form-label h5" for="user[login]2">Username</label>
+              </dt>
+              <dd>
+                <input type="text" name="user[login]" id="user[login]2" class="form-control form-control-lg input-block" />
+              </dd>
+            </dl>
+            <input type="hidden" data-csrf="true" value="4B79r/zt/RB8XYf4tZHcjplH3B7ProVU+Ks6bG3vBIuPA91jsW/rGJIrqxEcp2Kmtx/iUO7EV1FN0qLCS6wYNA==" />
+          </auto-check>
+          <auto-check src="/signup_check/email">
+            <dl class="form-group">
+              <dt class="input-label">
+                <label class="form-label h5" for="user[email]">Email</label>
+              </dt>
+              <dd>
+                <input type="text" name="user[email]" id="user[email]" class="form-control form-control-lg input-block js-email-notice-trigger" />
+              </dd>
+            </dl>
+            <input type="hidden" data-csrf="true" value="8pslAl9yuDge8uP6Jr4bTlTCQlxkz8gps27uAbE1Xpn9zDCmo7QQFbMFTvjjyBC3XrFgmQrO/wLlRIz7Bfkwfw==" />
+          </auto-check>
+          <password-strength
+        minimum-character-count="8"
+        passphrase-length="15"
+        invalid-message="Password is invalid."
+        error-class="text-red text-bold"
+        pass-class="text-green"
+      >
+            <dl class="form-group">
+              <dt class="input-label">
+                <label class="form-label h5" for="user[password]">Password</label>
+              </dt>
+              <dd>
+                <input type="password" name="user[password]" id="user[password]" class="form-control form-control-lg input-block" />
+                <p class="form-control-note text-gray-dark">&nbsp;</p>
+              </dd>
+            </dl>
+          </password-strength>
+          <a href="index2.html">
+          <button type="submit" class="btn-mktg btn-primary-mktg btn-large-mktg f4 btn-block my-3 js-add-experiment-labels-to-ga-click">Sign up for GitHub</button>
+          </a>
+        <p class="form-control-note mb-0 mt-3">&nbsp;</p></td>
+      </tr>
+    </table>
+  </div>
+  <div align="center"></div>
+  <div align="center"></div>
+</div>
 <script type="text/javascript">
-var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
-swfobject.registerObject("FlashID");
-swfobject.registerObject("FlashID2");
-swfobject.registerObject("FlashID3");
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 </script>
 </body>
 </html>
