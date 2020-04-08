@@ -2,137 +2,375 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>疫情防护</title>
+<title>叮当猫</title>
 <style type="text/css">
-body {
-	background-color: #9FC;
+.dingbu {
+	color: #FFF;
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+.djjr {
+	background-image: url(tp/%E7%82%B9%E5%87%BB%E8%BF%9B%E5%85%A5%E5%9B%BE%E7%89%87.jpg);
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
 }
 </style>
-<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
-.btn-block {width:100%;text-align:center}
-.btn-large-mktg {padding:20px 32px;font-size:16px}
-.btn-mktg {-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-appearance:none;-moz-appearance:none}
-.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
-.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
-.btn-mktg {display:inline-block;padding:16px 24px;font-size:14px;font-weight:500;color:#fff;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:#1074e7;border:1px solid #1074e7;border-radius:3px;transition:.2s;-webkit-appearance:none;-moz-appearance:none}
-.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
-.btn-mktg {pointer-events:none;cursor:default;opacity:.65}
-.btn-primary-mktg {background-color:#2ebc4f;border-color:#2ebc4f}
-.f4 {font-size:16px!important}
-.f4 {font-size:16px!important}
-.form-control {padding:6px 8px;line-height:20px;color:#24292e;vertical-align:middle;background-color:#fff;background-repeat:no-repeat;background-position:right 8px center;border:1px solid #d1d5da;border-radius:3px;outline:none;box-shadow:inset 0 1px 2px rgba(27,31,35,.075)}
-.form-control {border-color:#2188ff;outline:none;box-shadow:inset 0 1px 2px rgba(27,31,35,.075),0 0 0 .2em rgba(3,102,214,.3)}
-.form-control {font-size:14px}
-.form-group {margin:15px 0}
-.form-select {border-color:#2188ff;outline:none;box-shadow:inset 0 1px 2px rgba(27,31,35,.075),0 0 0 .2em rgba(3,102,214,.3)}
-.h4 {font-weight:600!important}
-.h5 {font-size:14px!important}
-.h5 {font-weight:600!important}
-.input-block {display:block}
-.mb-0 {margin-bottom:0!important}
-.mb-0 {margin-bottom:0!important}
-.mb-0 {margin-bottom:0!important}
-.mb-3 {margin-bottom:16px!important}
-.mb-3 {margin-bottom:16px!important}
-.mt-0 {margin-top:0!important}
-.mt-0 {margin-top:0!important}
-.mt-0 {margin-top:0!important}
-.mt-3 {margin-top:16px!important}
-.mt-3 {margin-top:16px!important}
-.mt-3 {margin-top:16px!important}
-.my-3 {margin-top:16px!important;margin-bottom:16px!important}
-.my-3 {margin-bottom:16px!important}
-.my-3 {margin-top:16px!important}
-.my-3 {margin-bottom:16px!important}
-.my-3 {margin-top:16px!important}
-.text-gray-dark {color:#24292e!important}
-.tooltipped {position:relative}
-.tooltipped-n:after {transform:translateX(50%)}
-.tooltipped-s:after {top:100%;right:50%;margin-top:6px}
-.tooltipped-s:after {transform:translateX(50%)}
-.tooltipped-s:before {top:auto;right:50%;bottom:-7px;margin-right:-6px;border-bottom-color:#1b1f23}
-.tooltipped-se:after {top:100%;right:50%;margin-top:6px}
-.tooltipped-se:before {top:auto;right:50%;bottom:-7px;margin-right:-6px;border-bottom-color:#1b1f23}
-.tooltipped-sw:after {top:100%;right:50%;margin-top:6px}
-.tooltipped-sw:before {top:auto;right:50%;bottom:-7px;margin-right:-6px;border-bottom-color:#1b1f23}
-.tooltipped:after {z-index:1000000;padding:.5em .75em;font:normal normal 11px/1.5 -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;-webkit-font-smoothing:subpixel-antialiased;color:#fff;text-align:center;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-wrap:break-word;white-space:pre;content:attr(aria-label);background:#1b1f23;border-radius:3px}
-.tooltipped:after {position:absolute;display:none;pointer-events:none;opacity:0}
-.tooltipped:before {position:absolute;display:none;pointer-events:none;opacity:0}
-.tooltipped:before {z-index:1000001;width:0;height:0;color:#1b1f23;content:"";border:6px solid transparent}
+#apDiv1 {
+	position: absolute;
+	left: 1346px;
+	top: 14px;
+	width: 59px;
+	height: 109px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 175px;
+	top: 11px;
+	width: 46px;
+	height: 67px;
+	z-index: 2;
+}
 </style>
-<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+	background-image: url(tp/jpg.jpg);
+}
+</style>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 </head>
 
 <body>
-<div align="left">
-  <div align="center">
-    <table width="1607" height="483" border="0">
-      <tr>
-        <td width="387"><div align="center"><img src="tp/18网络2班 叶永盛(1).jpg" width="387" height="668" /></div></td>
-        <td width="210"><ul id="MenuBar1" class="MenuBarVertical">
-          <li><a href="index2.html">国内疫情</a></li>
-          <div align="center"></div>
-          <div align="center"></div>
-          <li><a href="#">国外疫情</a></li>
-          <div align="center"></div>
-          <div align="center"></div>
-          <li><a href="#">视频</a></li>
-          <li><a href="#">音乐</a></li>
-        </ul></td>
-        <td width="996"><input type="hidden" data-csrf="true" name="authenticity_token" value="I2ssiJnpur2PyPNDvVSUZFzyB41Db5WQWDr/W6j/Qw+YIQeb7B0V/t9I7aFd7IxytsFZX7cturcDnp739kEL1w==" />
-          <input type="hidden" name="ga_id" class="js-octo-ga-id-input" />
-          <auto-check src="/signup_check/username?source=homepage&amp;suggest_usernames=true">
-            <dl class="form-group mt-0">
-              <dt class="input-label">
-                <label class="form-label h5" for="user[login]2">Username</label>
-              </dt>
-              <dd>
-                <input type="text" name="user[login]" id="user[login]2" class="form-control form-control-lg input-block" />
-              </dd>
-            </dl>
-            <input type="hidden" data-csrf="true" value="4B79r/zt/RB8XYf4tZHcjplH3B7ProVU+Ks6bG3vBIuPA91jsW/rGJIrqxEcp2Kmtx/iUO7EV1FN0qLCS6wYNA==" />
-          </auto-check>
-          <auto-check src="/signup_check/email">
-            <dl class="form-group">
-              <dt class="input-label">
-                <label class="form-label h5" for="user[email]">Email</label>
-              </dt>
-              <dd>
-                <input type="text" name="user[email]" id="user[email]" class="form-control form-control-lg input-block js-email-notice-trigger" />
-              </dd>
-            </dl>
-            <input type="hidden" data-csrf="true" value="8pslAl9yuDge8uP6Jr4bTlTCQlxkz8gps27uAbE1Xpn9zDCmo7QQFbMFTvjjyBC3XrFgmQrO/wLlRIz7Bfkwfw==" />
-          </auto-check>
-          <password-strength
-        minimum-character-count="8"
-        passphrase-length="15"
-        invalid-message="Password is invalid."
-        error-class="text-red text-bold"
-        pass-class="text-green"
-      >
-            <dl class="form-group">
-              <dt class="input-label">
-                <label class="form-label h5" for="user[password]">Password</label>
-              </dt>
-              <dd>
-                <input type="password" name="user[password]" id="user[password]" class="form-control form-control-lg input-block" />
-                <p class="form-control-note text-gray-dark">&nbsp;</p>
-              </dd>
-            </dl>
-          </password-strength>
-          <a href="index2.html">
-          <button type="submit" class="btn-mktg btn-primary-mktg btn-large-mktg f4 btn-block my-3 js-add-experiment-labels-to-ga-click">Sign up for GitHub</button>
+<div id="apDiv1"><img src="tp/ddm123.gif" width="157" height="138" /></div>
+<div id="apDiv2"><img src="tp/ddm123.gif" alt="" width="157" height="138" /></div>
+<div align="center">
+  <table width="1000" border="0">
+    <tr>
+      <td bgcolor="#666666"><div align="right">&nbsp;下载APP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录</div></td>
+    </tr>
+  </table>
+  <table width="1000" border="0">
+    <tr>
+      <td height="39">&nbsp;</td>
+    </tr>
+  </table>
+  <table width="1000" border="0">
+    <tr>
+      <td width="129"><div align="center"><a data-clev="10220218" target="_blank" href="https://news.sohu.com/?spm=smpc.home.top-nav.1.1586341204743Bcb4taY" data-spm-data="1"><strong>新闻&nbsp;&nbsp;</strong></a><a data-clev="10220219" target="_blank" href="https://mil.sohu.com/?spm=smpc.home.top-nav.2.1586341204743Bcb4taY" data-spm-data="2">军事&nbsp;&nbsp;</a><a data-clev="10220220" target="_blank" href="https://www.sohu.com/subject?spm=smpc.home.top-nav.3.1586341204743Bcb4taY" data-spm-data="3">专题</a><a data-clev="10220221" target="_blank" href="http://business.sohu.com/?spm=smpc.home.top-nav.4.1586341204743Bcb4taY" data-spm-data="4"><strong><br />
+        财经</strong></a><a data-clev="10220222" target="_blank" href="https://business.sohu.com/994?spm=smpc.home.top-nav.5.1586341204743Bcb4taY" data-spm-data="5">&nbsp;&nbsp;宏观</a><a data-clev="10220223" target="_blank" href="http://business.sohu.com/998?spm=smpc.home.top-nav.6.1586341204743Bcb4taY" data-spm-data="6">&nbsp;&nbsp;理财</a></div></td>
+      <td width="135"><div align="center"><a data-clev="10220224" target="_blank" href="https://sports.sohu.com/?spm=smpc.home.top-nav.7.1586341204743Bcb4taY" data-spm-data="7"><strong>体育&nbsp;&nbsp;</strong></a><a data-clev="10220225" target="_blank" href="https://sports.sohu.com/s/nba?spm=smpc.home.top-nav.8.1586341204743Bcb4taY" data-spm-data="8">NBA&nbsp;&nbsp;</a><a data-clev="10220226" target="_blank" href="https://sports.sohu.com/s/cba?spm=smpc.home.top-nav.9.1586341204743Bcb4taY" data-spm-data="9">CBA</a><a data-clev="10220227" target="_blank" href="http://www.focus.cn/" data-spm-data="10"><strong><br />
+        房产</strong></a><a data-clev="10220228" target="_blank" href="https://www.focus.cn/loupan" data-spm-data="11">&nbsp;&nbsp;新房</a><a data-clev="10220229" target="_blank" href="http://home.focus.cn/" data-spm-data="12">&nbsp;&nbsp;家居</a></div></td>
+      <td width="148"><div align="center"><a data-clev="10220230" target="_blank" href="https://yule.sohu.com/?spm=smpc.home.top-nav.13.1586341204743Bcb4taY" data-spm-data="13"><strong>娱乐&nbsp;&nbsp;</strong></a><a data-clev="10220231" target="_blank" href="https://tv.sohu.com/?spm=smpc.home.top-nav.14.1586341204743Bcb4taY" data-spm-data="14">视频&nbsp;&nbsp;</a><a data-clev="10220232" target="_blank" href="https://tv.sohu.com/drama/?spm=smpc.home.top-nav.15.1586341204743Bcb4taY" data-spm-data="15">电视剧</a><a data-clev="10220233" target="_blank" href="http://auto.sohu.com/?spm=smpc.home.top-nav.16.1586341204743Bcb4taY" data-spm-data="16"><strong><br />
+        汽车&nbsp;&nbsp;</strong></a><a data-clev="10220234" target="_blank" href="http://db.auto.sohu.com/home/?spm=smpc.home.top-nav.17.1586341204743Bcb4taY" data-spm-data="17">买车</a><a data-clev="10220235" target="_blank" href="http://auto.sohu.com/newenergy/index.shtml?spm=smpc.home.top-nav.18.1586341204743Bcb4taY" data-spm-data="18">&nbsp;&nbsp;新能源</a></div></td>
+      <td width="131"><div align="center"><a data-clev="10220236" target="_blank" href="http://fashion.sohu.com/?spm=smpc.home.top-nav.19.1586341204743Bcb4taY" data-spm-data="19"><strong>时尚&nbsp;&nbsp;</strong></a><a data-clev="10220237" target="_blank" href="https://travel.sohu.com/?spm=smpc.home.top-nav.20.1586341204743Bcb4taY" data-spm-data="20">旅游&nbsp;&nbsp;</a><a data-clev="10220238" target="_blank" href="http://baobao.sohu.com/?spm=smpc.home.top-nav.21.1586341204743Bcb4taY" data-spm-data="21">母婴<br />
+      </a><a data-clev="10220239" target="_blank" href="https://it.sohu.com/?spm=smpc.home.top-nav.22.1586341204743Bcb4taY" data-spm-data="22"><strong>科技&nbsp;&nbsp;</strong></a><a data-clev="10220240" target="_blank" href="http://learning.sohu.com/?spm=smpc.home.top-nav.23.1586341204743Bcb4taY" data-spm-data="23">教育</a><a data-clev="10220241" target="_blank" href="http://health.sohu.com/?spm=smpc.home.top-nav.24.1586341204743Bcb4taY" data-spm-data="24">&nbsp;&nbsp;健康</a></div></td>
+      <td width="123"><div align="center"><a data-clev="10220242" target="_blank" href="https://chihe.sohu.com/?spm=smpc.home.top-nav.25.1586341204743Bcb4taY" data-spm-data="25"><strong>美食&nbsp;&nbsp;</strong></a><a data-clev="10220243" target="_blank" href="http://cul.sohu.com/?spm=smpc.home.top-nav.26.1586341204743Bcb4taY" data-spm-data="26">文化</a><a data-clev="10220244" target="_blank" href="http://history.sohu.com/?spm=smpc.home.top-nav.27.1586341204743Bcb4taY" data-spm-data="27">&nbsp;&nbsp;历史</a><a data-clev="10220245" target="_blank" href="https://astro.sohu.com/?spm=smpc.home.top-nav.28.1586341204743Bcb4taY" data-spm-data="28"><strong><br />
+        星座&nbsp;&nbsp;</strong></a><a data-clev="10220246" target="_blank" href="https://acg.sohu.com/?spm=smpc.home.top-nav.29.1586341204743Bcb4taY" data-spm-data="29">动漫</a><a target="_blank" href="https://game.sohu.com/?spm=smpc.home.top-nav.30.1586341204743Bcb4taY" data-spm-data="30">&nbsp;&nbsp;游戏</a></div></td>
+      <td width="164"><div align="center"><a target="_blank" href="https://mail.sohu.com/?spm=smpc.home.top-nav.31.1586341204743Bcb4taY" data-spm-data="31"><strong>邮箱</strong></a><a target="_blank" href="https://ie.sogou.com/" data-spm-data="32">&nbsp;&nbsp;浏览器</a><a target="_blank" href="http://blog.sohu.com/?spm=smpc.home.top-nav.33.1586341204743Bcb4taY" data-spm-data="33">&nbsp;&nbsp;博客<br />
+      </a><a target="_blank" href="https://map.sogou.com/" data-spm-data="34"><strong>地图&nbsp;&nbsp;</strong></a><a target="_blank" href="https://pinyin.sogou.com/" data-spm-data="35">输入法&nbsp;&nbsp;</a><a target="_blank" href="http://caipiao.sohu.com/?spm=smpc.home.top-nav.36.1586341204743Bcb4taY" data-spm-data="36">彩票</a></div></td>
+      <td width="140"><div align="center"><a target="_blank" href="https://qf.56.com/" data-spm-data="37"><strong>千帆&nbsp;&nbsp;</strong></a><a target="_blank" href="http://popup.sohu.com/web/?spm=smpc.home.top-nav.38.1586341204743Bcb4taY" data-spm-data="38">微门户&nbsp;&nbsp;</a><a target="_blank" href="https://gongyi.sohu.com/?spm=smpc.home.top-nav.39.1586341204743Bcb4taY" data-spm-data="39">公益<br />
+      </a><a target="_blank" href="https://www.changyou.com/index.shtml" data-spm-data="40"><strong>畅游</strong></a><a target="_blank" href="https://www.17173.com/" data-spm-data="41">&nbsp;&nbsp;17173&nbsp;&nbsp;</a><a target="_blank" href="http://gov.sohu.com/?spm=smpc.home.top-nav.42.1586341204743Bcb4taY" data-spm-data="42">政务</a></div></td>
+    </tr>
+  </table>
+  <br />
+  <table width="1000" height="341" border="0">
+    <tr>
+      <td width="785" rowspan="2"><div align="center"><a href="https://tv.sohu.com/s2020/timeless2/"><img src="tp/穿越时间线第二季.jpg" width="755" height="335" /></a></div></td>
+      <td width="205" height="178"><div align="center"><img src="tp/核心价值观_1.jpg" width="236" height="176" /></div></td>
+    </tr>
+    <tr>
+      <td height="157"><div align="center"><a href="http://report.12377.cn:13225/toreportinputNormal_anis.do"><img src="tp/骗.jpg" width="234" height="155" /></a></div></td>
+    </tr>
+  </table>
+  <table width="1000" border="0">
+    <tr>
+      <td width="320" rowspan="2"><div data-role="index-focus" data-spm="fspic">
+        <div id="swiper">
+          <div data-role="item-wrapper">
+            <div><a target="_blank" data-param="?_f=index_focus_1" href="https://www.sohu.com/a/386345461_114986?spm=smpc.home.fspic.2.1586348146200UFBnQwA" title="日本“紧急事态”和“封城”有何不同？" data-spm-data="2">日本&ldquo;紧急事态&rdquo;和&ldquo;封城&rdquo;有何不同？</a></div>
+            <div data-god-id="15537"><a target="_blank" data-param="?_f=index_focus_2" href="https://www.sohu.com/a/386338340_267106?spm=smpc.home.fspic.3.1586348146200UFBnQwA" title="北京今年杨柳飞絮将有三个高发期" data-spm-data="3"><img alt="北京今年杨柳飞絮将有三个高发期" src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_550,h_367/os/news/fbe67e757a7d97ce3cdc4374b076b720.jpg" /></a></div>
+            <div><a target="_blank" data-param="?_f=index_focus_0" href="https://www.sohu.com/a/386370283_162522?spm=smpc.home.fspic.1.1586348146200UFBnQwA" title="官方：不得随意劝返武汉籍车辆和人员" data-spm-data="1"><img alt="官方：不得随意劝返武汉籍车辆和人员" src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_213/c_cut,x_0,y_0,w_500,h_333/os/news/c4403d6c967b58095742df87262fcd0e.jpg" />官方：不得随意劝返武汉籍车辆和人员</a></div>
+          </div>
+          <div><span data-id="0"></span> <span data-id="1"></span> </div>
+          <div></div>
+        </div>
+      </div>
+        <div data-spm="pic-group">
+          <div align="center"><a data-param="?_f=index_focus_3" href="https://www.sohu.com/a/386365966_260616?spm=smpc.home.pic-group.1.1586348146200UFBnQwA&amp;_f=index_focus_3" target="_blank" title="英媒：英国首相约翰逊已退烧" data-spm-data="1"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_19,y_0,w_639,h_426/os/news/9014ad82b0c7d8a73c031dde9054babe.jpg" alt="英媒：英国首相约翰逊已退烧" /><br />
+            英媒：英国首相约翰逊已退烧</a><a data-param="?_f=index_focus_4" href="https://www.sohu.com/a/386351891_162522?spm=smpc.home.pic-group.2.1586348146200UFBnQwA" target="_blank" title="武汉“解封”：车多了 市民“过早”了" data-spm-data="2"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_8,y_0,w_1431,h_954/os/news/303e05db7d1d41b6f5ae3b5120abe093.jpg" alt="武汉“解封”：车多了 市民“过早”了" /><br />
+            武汉&ldquo;解封&rdquo;：车多了 市民&ldquo;过早&rdquo;了</a><a data-param="?_f=index_focus_5" href="https://www.sohu.com/a/386360643_162522?spm=smpc.home.pic-group.3.1586348146200UFBnQwA" target="_blank" title="世卫组织：仅仅戴口罩是不够的" data-spm-data="3"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_-2,w_450,h_300/os/news/e84f7b3c5197d70a48ead36829924e32.jpg" alt="世卫组织：仅仅戴口罩是不够的" /><br />
+            世卫组织：仅仅戴口罩是不够的</a><a data-param="?_f=index_focus_6" href="https://www.sohu.com/picture/386333561?spm=smpc.home.pic-group.4.1586348146200UFBnQwA" target="_blank" title="长春飘雪 明日北方最高降温8℃" data-spm-data="4"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_0,w_899,h_600/os/news/cf0ffcff8b50245ca1eec994fdae8aab.jpg" alt="长春飘雪 明日北方最高降温8℃" /><br />
+            长春飘雪 明日北方最高降温8℃</a></div>
+        </div>
+        <div data-spm="video-group">
+          <div>视频</div>
+          <div><a title="120秒回顾武汉“解封”瞬间" data-param="?_f=index_video_0" href="https://tv.sohu.com/v/dXMvMzI0MjUzNjQwLzE4ODIwMzk1Mi5zaHRtbA==.html?spm=smpc.home.video-group.1.1586348146200UFBnQwA" target="_blank" data-spm-data="1"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_160/c_cut,x_0,y_0,w_500,h_250/os/news/c117034d8433f51e527e55daa297a7c7.jpg" alt="120秒回顾武汉“解封”瞬间" /><em>120秒回顾武汉&ldquo;解封&rdquo;瞬间</em></a></div>
+          <div>
+            <ul>
+              <li><a data-param="?_f=index_video_1_0" href="https://tv.sohu.com/v/dXMvMzAzNTM4MDg4LzE4ODEyOTk4Ny5zaHRtbA==.html?spm=smpc.home.video-group.2.1586348146200UFBnQwA" target="_blank" data-spm-data="2">热　点</a> <em>|</em> <a data-param="?_f=index_video__1_1" href="https://tv.sohu.com/v/dXMvMzAzNTM4MDg4LzE4ODEyOTk4Ny5zaHRtbA==.html?spm=smpc.home.video-group.3.1586348146200UFBnQwA" target="_blank" data-spm-data="3">医院尸体堆积不堪重负 市民当街焚烧遗体</a></li>
+              <li><a data-param="?_f=index_video_2_0" href="https://tv.sohu.com/v/dXMvMzQ0NDIzNTcxLzE4ODE3MjExNS5zaHRtbA==.html?spm=smpc.home.video-group.4.1586348146200UFBnQwA" target="_blank" data-spm-data="4">聚　焦</a> <em>|</em> <a data-param="?_f=index_video__2_1" href="https://tv.sohu.com/v/dXMvMzQ0NDIzNTcxLzE4ODE3MjExNS5zaHRtbA==.html?spm=smpc.home.video-group.5.1586348146200UFBnQwA" target="_blank" data-spm-data="5">孙子哄奶奶眨眼点头 奶奶：他就是一条狼</a></li>
+              <li><a data-param="?_f=index_video_3_0" href="https://tv.sohu.com/v/dXMvMzAzNTM4MDg4LzE4ODEzNDk3Ny5zaHRtbA==.html?spm=smpc.home.video-group.6.1586348146200UFBnQwA" target="_blank" data-spm-data="6">关　注</a> <em>|</em> <a data-param="?_f=index_video__3_1" href="https://tv.sohu.com/v/dXMvMzAzNTM4MDg4LzE4ODEzNDk3Ny5zaHRtbA==.html?spm=smpc.home.video-group.7.1586348146200UFBnQwA" target="_blank" data-spm-data="7">印度男子违令外出被打屁股 疼得嗷嗷哭喊</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a title="他的班主任" data-param="?_f=index_tv_0" href="https://tv.sohu.com/v/MjAyMDA0MDIvbjYwMDgzNjU5Mi5zaHRtbA==.html?txid=1001033263&amp;spm=smpc.home.video-group.8.1586348146200UFBnQwA" target="_blank" data-spm-data="8"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_0,w_155,h_103/os/news/d690e28a15b95ea9c12f68dc1160786e.jpg" alt="他的班主任" /><em>他的班主任</em></a></li>
+              <li><a title="我哥我嫂" data-param="?_f=index_tv_1" href="http://tv.sohu.com/v/MjAyMDA0MDcvbjYwMDgzODE4Ni5zaHRtbA==.html?txid=1001033262&amp;spm=smpc.home.video-group.9.1586348146200UFBnQwA" target="_blank" data-spm-data="9"><img src="http://29e5534ea20a8.cdn.sohucs.com/c_zoom,h_103/c_cut,x_0,y_1,w_155,h_103/os/news/a6fc0dc6f353bf9e51c69fb12684295b.jpg" alt="我哥我嫂" /><em>我哥我嫂</em></a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a data-param="?_f=index_tv_2_0" href="https://tv.sohu.com/drama/?txid=1001033264&amp;spm=smpc.home.video-group.10.1586348146200UFBnQwA" target="_blank" data-spm-data="10">热　播</a> <em>|</em> <a data-param="?_f=index_tv__2_1" href="https://tv.sohu.com/v/MjAyMDAzMTgvbjYwMDgzMDgxMS5zaHRtbA==.html?txid=1001033265&amp;spm=smpc.home.video-group.11.1586348146200UFBnQwA" target="_blank" data-spm-data="11">猫冬</a> <a data-param="?_f=index_tv__2_2" href="http://tv.sohu.com/v/MjAyMDA0MDcvbjYwMDgzODE3Ni5zaHRtbA==.html?txid=1001033266&amp;spm=smpc.home.video-group.12.1586348146200UFBnQwA" target="_blank" data-spm-data="12">一诺无悔</a> <a data-param="?_f=index_tv__2_3" href="https://tv.sohu.com/v/MjAyMDAzMTYvbjYwMDgyOTg1Ni5zaHRtbA==.html?txid=1001033267&amp;spm=smpc.home.video-group.13.1586348146200UFBnQwA" target="_blank" data-spm-data="13">一个不能少</a> <a data-param="?_f=index_tv__2_4" href="https://tv.sohu.com/v/MjAyMDA0MDYvbjYwMDgzNzYyMS5zaHRtbA==.html?spm=smpc.home.video-group.14.1586348146200UFBnQwA" target="_blank" data-spm-data="14">绿水青山</a></li>
+              <li><a data-param="?_f=index_tv_3_0" href="http://tv.sohu.com/self/?txid=1001033268&amp;spm=smpc.home.video-group.15.1586348146200UFBnQwA" target="_blank" data-spm-data="15">自　制</a> <em>|</em> <a data-param="?_f=index_tv__3_1" href="http://tv.sohu.com/v/MjAxNTA3MDUvbjQxNjIwNzUzMy5zaHRtbA==.html?txid=1001033265&amp;spm=smpc.home.video-group.16.1586348146200UFBnQwA" target="_blank" data-spm-data="16">无心法师</a> <a data-param="?_f=index_tv__3_2" href="https://tv.sohu.com/v/MjAxNzA2MjMvbjYwMDAxOTczNy5zaHRtbA==.html?txid=1001033266&amp;spm=smpc.home.video-group.17.1586348146200UFBnQwA" target="_blank" data-spm-data="17">非正常事件集</a> <a data-param="?_f=index_tv__3_3" href="http://tv.sohu.com/v/MjAxNjEwMTMvbjQ3MDIwODE5My5zaHRtbA==.html?txid=1001033267&amp;spm=smpc.home.video-group.18.1586348146200UFBnQwA" target="_blank" data-spm-data="18">法医秦明</a></li>
+              <li><a data-param="?_f=index_tv_4_0" href="http://tv.sohu.com/movie/?txid=1001033272&amp;spm=smpc.home.video-group.19.1586348146200UFBnQwA" target="_blank" data-spm-data="19">电　影</a> <em>|</em> <a data-param="?_f=index_tv__4_1" href="https://film.sohu.com/album/9561937.html?channeled=1200100000?txid=1001033273&amp;spm=smpc.home.video-group.20.1586348146200UFBnQwA" target="_blank" data-spm-data="20">东邪西毒</a> <a data-param="?_f=index_tv__4_2" href="https://film.sohu.com/album/9615321.html?channeled=1200100000?txid=1001033274&amp;spm=smpc.home.video-group.21.1586348146200UFBnQwA" target="_blank" data-spm-data="21">喋血双龙</a> <a data-param="?_f=index_tv__4_3" href="https://film.sohu.com/album/8389782.html?channeled=1200100000?txid=1001033275&amp;spm=smpc.home.video-group.22.1586348146200UFBnQwA" target="_blank" data-spm-data="22">灵欲的乐章</a></li>
+              <li><a data-param="?_f=index_tv_5_0" href="http://tv.sohu.com/comic/?txid=1001033276&amp;spm=smpc.home.video-group.23.1586348146200UFBnQwA" target="_blank" data-spm-data="23">动　漫</a> <em>|</em> <a data-param="?_f=index_tv__5_1" href="https://tv.sohu.com/v/MjAyMDAzMjcvbjYwMDgzNDEwOS5zaHRtbA==.html?txid=1001033273&amp;spm=smpc.home.video-group.24.1586348146200UFBnQwA" target="_blank" data-spm-data="24">鸡皮和他的朋友</a> <a data-param="?_f=index_tv__5_2" href="https://tv.sohu.com/v/MjAyMDAyMjcvbjYwMDgxNzcyNy5zaHRtbA==.html?txid=1001033274&amp;spm=smpc.home.video-group.25.1586348146200UFBnQwA" target="_blank" data-spm-data="25">健康抗疫</a> <a data-param="?_f=index_tv__5_3" href="https://tv.sohu.com/v/MjAyMDA0MDMvbjYwMDgzNjkwMS5zaHRtbA==.html?txid=1001033275&amp;spm=smpc.home.video-group.26.1586348146200UFBnQwA" target="_blank" data-spm-data="26">重案组</a></li>
+              <li><a data-param="?_f=index_tv_6_0" href="http://tv.sohu.com/show/?txid=1001033280&amp;spm=smpc.home.video-group.27.1586348146200UFBnQwA" target="_blank" data-spm-data="27">综　艺</a> <em>|</em> <a data-param="?_f=index_tv__6_1" href="https://tv.sohu.com/v/MjAyMDA0MDcvbjYwMDgzNzY0NS5zaHRtbA==.html?txid=1001033277&amp;spm=smpc.home.video-group.28.1586348146200UFBnQwA" target="_blank" data-spm-data="28">非你莫属</a> <a data-param="?_f=index_tv__6_2" href="https://tv.sohu.com/v/MjAyMDA0MDYvbjYwMDgzNzYwMy5zaHRtbA==.html?txid=1001033278&amp;spm=smpc.home.video-group.29.1586348146200UFBnQwA" target="_blank" data-spm-data="29">金牌调解</a> <a data-param="?_f=index_tv__6_3" href="https://tv.sohu.com/v/MjAyMDA0MDYvbjYwMDgzNzU4Ny5zaHRtbA==.html?txid=1001033279&amp;spm=smpc.home.video-group.30.1586348146200UFBnQwA" target="_blank" data-spm-data="30">养生堂</a> <a data-param="?_f=index_tv__6_4" href="https://tv.sohu.com/v/MjAyMDA0MDcvbjYwMDgzNzY1NS5zaHRtbA==.html?spm=smpc.home.video-group.31.1586348146200UFBnQwA" target="_blank" data-spm-data="31">生命缘</a></li>
+            </ul>
+          </div>
+      </div></td>
+      <td width="361" rowspan="2"><div align="center" class="djjr"><a href="www.ddm123.xyz"><img src="tp/oldentrancetwo.png" width="114" height="28" /></a></div>
+        <div data-spm="top-news1">
+          <p><a href="https://www.sohu.com/a/386191112_267106?code=86829a9ce548ce312612d93e456958d2&amp;spm=smpc.home.top-news1.1.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_0" target="_blank" title="抗“疫”答卷" data-spm-data="1"><strong>抗&ldquo;疫&rdquo;答卷</strong></a></p>
+          <p><a href="https://www.sohu.com/a/386288670_362042?code=7316f8724ab5bd3950f2831e48aea5f1&amp;spm=smpc.home.top-news1.2.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_1_0" target="_blank" title="微视频丨重逢在春天" data-spm-data="2"><strong>微视频丨重逢在春天</strong></a> <em>|</em> <a href="https://www.sohu.com/a/386150580_267106?code=a9798b7f5aba680e0a0f9e2c932a9cd7&amp;spm=smpc.home.top-news1.3.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_0_1" target="_blank" title="给坚守以希望，还牺牲以光荣" data-spm-data="3"><strong>给坚守以希望，还牺牲以光荣</strong></a></p>
+          <p><a href="https://www.sohu.com/a/386226288_162758?code=4098dd68bde848d4cf32c822f363abdd&amp;spm=smpc.home.top-news1.4.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_2" target="_blank" title="必须积极支持国际组织发挥作用" data-spm-data="4">必须积极支持国际组织发挥作用</a></p>
+          <p><a href="https://www.sohu.com/a/386343678_115239?code=ed23b957867b096f2678e6f735cb7e02&amp;spm=smpc.home.top-news1.5.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_3_0" target="_blank" title="微视频|76天，重启武汉" data-spm-data="5">微视频|76天，重启武汉</a> <em>|</em> <a href="https://www.sohu.com/a/386341845_119038?code=18289f81b394f9e56f8b45b6622a2394&amp;spm=smpc.home.top-news1.6.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_0_1" target="_blank" title="【海报】武汉“解封日”≠抗疫“胜利日”" data-spm-data="6">【海报】武汉&ldquo;解封日&rdquo;≠抗疫&ldquo;胜利日&rdquo;</a></p>
+          <p><a href="https://www.sohu.com/a/386325723_267106?code=5e50a04f0c333cf55c194049bced361f&amp;spm=smpc.home.top-news1.7.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_4_0" target="_blank" title="世所罕见！" data-spm-data="7">世所罕见！</a> <em>|</em> <a href="https://www.sohu.com/a/386339494_362042?code=f6b47c175dbbff10b876087c1c225039&amp;spm=smpc.home.top-news1.8.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_0_1" target="_blank" title="热评丨有一种解封，叫极目楚天“舒”" data-spm-data="8">热评丨有一种解封，叫极目楚天&ldquo;舒&rdquo;</a></p>
+          <p><a href="https://www.sohu.com/a/386375567_115239?code=90dea06fed73bf2a17922451f9e5541&amp;spm=smpc.home.top-news1.9.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_5" target="_blank" title="【战“疫”说理】提升全民卫生应急素养，助力健康中国建设" data-spm-data="9">【战&ldquo;疫&rdquo;说理】提升全民卫生应急素养，助力健康中国建设</a></p>
+          <p><a href="https://www.sohu.com/a/386328129_119038?code=32604d9e3da1b733bea1c5a21f6c250c&amp;spm=smpc.home.top-news1.10.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_6" target="_blank" title="我国“口粮绝对安全”有充足家底 完成中晚稻收购2208万吨" data-spm-data="10">我国&ldquo;口粮绝对安全&rdquo;有充足家底 完成中晚稻收购2208万吨</a></p>
+          <p><a href="https://www.sohu.com/a/386241574_114731?code=c26ed3555ef4d0a5f0607d3dd016a6a8&amp;spm=smpc.home.top-news1.11.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_7_0" target="_blank" title="汇聚起中国经济的复苏动能" data-spm-data="11">汇聚起中国经济的复苏动能</a> <em>|</em> <a href="https://www.sohu.com/a/386247004_114731?code=9a7eea003599d5161ddcc6a140f3589e&amp;spm=smpc.home.top-news1.12.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_0_1" target="_blank" title="外储规模总体稳定有支撑" data-spm-data="12">外储规模总体稳定有支撑</a></p>
+          <p><a href="https://www.sohu.com/a/386341912_119038?code=6d5a4a41b392bb16f8d8074cadca28c4&amp;spm=smpc.home.top-news1.13.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_8" target="_blank" title="中国经济按下恢复" 为世界抗疫注入信心动力="为世界抗疫注入信心动力" data-spm-data="13">中国经济按下恢复&quot;加速键&quot;， 为世界抗疫注入信心动力</a></p>
+          <p><a href="https://www.sohu.com/a/385996127_362042?code=d2e852ebadb8bd9a5b8621d0f7e8b2b1&amp;spm=smpc.home.top-news1.14.15863454448559N0TwD9" data-param="&amp;_f=index_cpc_9" target="_blank" title="国际社会：中国在抗疫过程中的经验为世界提供了有益借鉴" data-spm-data="14">国际社会：中国在抗疫过程中的经验为世界提供了有益借鉴</a></p>
+        </div>
+        <div data-role="update-pa-0">
+          <div data-spm="top-news2">
+            <ul>
+              <li><a data-param="?_f=index_news_0" href="https://www.sohu.com/a/386246955_114731?spm=smpc.home.top-news2.1.15863454448559N0TwD9" target="_blank" title="央企，关键时刻显担当" data-spm-data="1">央企，关键时刻显担当</a></li>
+              <li><a data-param="?_f=index_news_1" href="https://www.sohu.com/a/386318871_119038?spm=smpc.home.top-news2.2.15863454448559N0TwD9" target="_blank" title="武汉规模以上工业企业复工率超97%" data-spm-data="2">武汉规模以上工业企业复工率超97%</a></li>
+              <li><a data-param="?_f=index_news_2" href="https://www.sohu.com/a/386323021_362042?spm=smpc.home.top-news2.3.15863454448559N0TwD9" target="_blank" title="国际社会点赞中国抗疫措施 期待中国分享宝贵经验" data-spm-data="3">国际社会点赞中国抗疫措施 期待中国分享宝贵经验</a></li>
+              <li><a data-param="?_f=index_news_3" href="https://www.sohu.com/a/386198360_267106?spm=smpc.home.top-news2.4.15863454448559N0TwD9" target="_blank" title="湖北公安机关疫情防控中勇当“先锋队”“主力军”" data-spm-data="4">湖北公安机关疫情防控中勇当&ldquo;先锋队&rdquo;&ldquo;主力军&rdquo;</a></li>
+              <li><a data-param="?_f=index_news_4" href="https://www.sohu.com/a/386281009_162758?spm=smpc.home.top-news2.5.15863454448559N0TwD9" target="_blank" title="【防疫科普】解封不等于解防，这些防护知识要牢记！" data-spm-data="5">【防疫科普】解封不等于解防，这些防护知识要牢记！</a></li>
+              <li><a data-param="?_f=index_news_5" href="https://www.sohu.com/subject/320101?spm=smpc.home.top-news2.6.15863454448559N0TwD9" target="_blank" title="专题|纪念玉树灾后重建十周年" data-spm-data="6">专题|纪念玉树灾后重建十周年</a></li>
+            </ul>
+          </div>
+          <div data-spm="top-news3">
+            <ul>
+              <li><a data-param="?_f=index_news_6" href="https://www.sohu.com/a/386219859_260616?spm=smpc.home.top-news3.1.15863454448559N0TwD9" target="_blank" title="全球新冠肺炎确诊病例累计超140万例 累计死亡超8万例" data-spm-data="1">全球新冠肺炎确诊病例累计超140万例 累计死亡超8万例</a></li>
+              <li><a data-param="?_f=index_news_7" href="https://www.sohu.com/a/386248061_162522?spm=smpc.home.top-news3.2.15863454448559N0TwD9" target="_blank" title="美国新冠肺炎确诊病例超40万例 死亡病例为12837例" data-spm-data="2">美国新冠肺炎确诊病例超40万例 死亡病例为12837例</a></li>
+              <li><a data-param="?_f=index_news_8" href="https://www.sohu.com/a/386347897_162522?spm=smpc.home.top-news3.3.15863454448559N0TwD9" target="_blank" title="法国单日新增确诊病例超1.1万例 累计110070例" data-spm-data="3">法国单日新增确诊病例超1.1万例 累计110070例</a></li>
+              <li><a data-param="?_f=index_news_9" href="https://www.sohu.com/a/386245141_162522?spm=smpc.home.top-news3.4.15863454448559N0TwD9" target="_blank" title="意大利一养老院护理人员集体逃离 10名老人死亡" data-spm-data="4">意大利一养老院护理人员集体逃离 10名老人死亡</a></li>
+              <li><a data-param="?_f=index_news_10" href="https://www.sohu.com/a/386349661_162522?spm=smpc.home.top-news3.5.15863454448559N0TwD9" target="_blank" title="疫情下富豪们资产大缩水 特朗普身家一个月少了10亿美元" data-spm-data="5">疫情下富豪们资产大缩水 特朗普身家一个月少了10亿美元</a></li>
+              <li><a data-param="?_f=index_news_11" href="https://www.sohu.com/a/386334617_656058?spm=smpc.home.top-news3.6.15863454448559N0TwD9" target="_blank" title="疫情下一些美国华人购买枪支防范歧视攻击|知世100人第三期" data-spm-data="6">疫情下一些美国华人购买枪支防范歧视攻击|知世100人第三期</a></li>
+            </ul>
+          </div>
+          <div data-spm="top-news4">
+            <ul>
+              <li><a data-param="?_f=index_news_12" href="https://www.sohu.com/a/386306563_161795?spm=smpc.home.top-news4.1.15863454448559N0TwD9" target="_blank" title="40医护裸体抗议要口罩 法国：口罩在机场被美国高价截和" data-spm-data="1">40医护裸体抗议要口罩 法国：口罩在机场被美国高价截和</a></li>
+              <li><a data-param="?_f=index_news_13" href="https://www.sohu.com/a/386375324_116237?spm=smpc.home.top-news4.2.15863454448559N0TwD9" target="_blank" title="16岁少女裸死卧室警方持续16年追凶 嫌犯被抓居然是其同学" data-spm-data="2">16岁少女裸死卧室警方持续16年追凶 嫌犯被抓居然是其同学</a></li>
+              <li><a data-param="?_f=index_news_14" href="https://www.sohu.com/a/386300003_114988?spm=smpc.home.top-news4.3.15863454448559N0TwD9" target="_blank" title="受贿921万 山东驻京办原主任窦玉明一审获刑11年半" data-spm-data="3">受贿921万 山东驻京办原主任窦玉明一审获刑11年半</a></li>
+              <li><a data-param="?_f=index_news_15" href="https://www.sohu.com/a/386217586_237556?spm=smpc.home.top-news4.4.15863454448559N0TwD9" target="_blank" title="武汉解封当日至少6.5万人离城 出行者:比高考还紧张" data-spm-data="4">武汉解封当日至少6.5万人离城 出行者:比高考还紧张</a></li>
+              <li><a data-param="?_f=index_news_16" href="https://www.sohu.com/a/386391629_157078?spm=smpc.home.top-news4.5.15863454448559N0TwD9" target="_blank" title="全国9省市已深度老龄化 这里竟比意大利还“老”？" data-spm-data="5">全国9省市已深度老龄化 这里竟比意大利还&ldquo;老&rdquo;？</a></li>
+              <li><a data-param="?_f=index_news_17" href="https://www.sohu.com/a/386354901_162522?spm=smpc.home.top-news4.6.15863454448559N0TwD9" target="_blank" title="好未来回应自曝收入造假：涉事员工已被依法拘留" data-spm-data="6">好未来回应自曝收入造假：涉事员工已被依法拘留</a></li>
+            </ul>
+          </div>
+          <div data-spm="top-news5">
+            <ul>
+              <li><a data-param="?_f=index_news_18" href="https://www.sohu.com/a/386329324_221650?spm=smpc.home.top-news5.1.15863454448559N0TwD9" target="_blank" title="省委书记要求“举全省之力” 副省长紧急前往绥芬河" data-spm-data="1">省委书记要求&ldquo;举全省之力&rdquo; 副省长紧急前往绥芬河</a></li>
+              <li><a data-param="?_f=index_news_19" href="https://www.sohu.com/a/386350734_260616?spm=smpc.home.top-news5.2.15863454448559N0TwD9" target="_blank" title="3月一线城市二手房成交量回温 深圳房价比去年上涨3.3%" data-spm-data="2">3月一线城市二手房成交量回温 深圳房价比去年上涨3.3%</a></li>
+              <li><a data-param="?_f=index_news_20" href="https://www.sohu.com/a/386380745_123753?spm=smpc.home.top-news5.3.15863454448559N0TwD9" target="_blank" title="北京：离汉返京人员须进行核酸检测" data-spm-data="3">北京：离汉返京人员须进行核酸检测</a></li>
+              <li><a data-param="?_f=index_news_21" href="https://www.sohu.com/picture/386359923?spm=smpc.home.top-news5.4.15863454448559N0TwD9" target="_blank" title="新冠病毒蛋糕你吃过没？德国面包店新创意大受欢迎" data-spm-data="4">新冠病毒蛋糕你吃过没？德国面包店新创意大受欢迎</a></li>
+              <li><a data-param="?_f=index_news_22" href="https://www.sohu.com/a/386288101_260616?spm=smpc.home.top-news5.5.15863454448559N0TwD9" target="_blank" title="专访还原全球首只新冠确诊老虎检测全过程：全麻 虎口取拭" data-spm-data="5">专访还原全球首只新冠确诊老虎检测全过程：全麻 虎口取拭</a></li>
+              <li><a data-param="?_f=index_news_23" href="https://www.sohu.com/a/386340888_665455?spm=smpc.home.top-news5.6.15863454448559N0TwD9" target="_blank" title="男子偷拍女生发侮辱言辞被拘 女性的表现令人赞赏" data-spm-data="6">男子偷拍女生发侮辱言辞被拘 女性的表现令人赞赏</a></li>
+            </ul>
+          </div>
+      </div></td>
+      <td width="305" height="531"><div id="TabbedPanels1" class="TabbedPanels">
+        <ul class="TabbedPanelsTabGroup">
+          <li class="TabbedPanelsTab" tabindex="0">深圳城事</li>
+          <li class="TabbedPanelsTab" tabindex="0">搜狐精选</li>
+        </ul>
+        <div class="TabbedPanelsContentGroup">
+          <div class="TabbedPanelsContent">
+            <div>
+              <div id="city-sohu-choice" data-spm="city-shenzhen"><a href="https://www.sohu.com/a/386391313_523366?spm=smpc.home.city-shenzhen.1.15863454448559N0TwD9" title="药价又降了！深圳25种集中采购药品最高降幅74%" target="_blank" data-spm-data="1">
+                <div>
+                  <div><img src="https://5b0988e595225.cdn.sohucs.com/q_70,c_lfill,w_300,h_135,g_faces/images/20200408/9b6b5cedda0f4abda13bb41f76e9f04f.jpeg" alt="2" />
+                    <div></div>
+                  </div>
+                  <div></div>
+                  <h4>药价又降了！深圳25种集中采购药品最高降幅74%</h4>
+                </div>
+                </a><a href="https://www.sohu.com/topic/city/?tab=shenzhen&amp;spm=smpc.home.city-shenzhen.2.15863454448559N0TwD9" title="搜狐-城事" target="_blank" id="goto-sohuCity-link" data-spm-data="2">
+                  <div id="goto-beijing-icon">深圳</div>
+                  </a>
+                <div>
+                  <div><a href="https://www.sohu.com/a/386104110_161795?spm=smpc.home.city-shenzhen.3.15863454448559N0TwD9" title="深圳夫妻婚礼后第3天因一碗面争吵，女方想离婚，男方要求退彩礼" target="_blank" data-spm-data="3">
+                    <div>深圳夫妻婚礼后第3天因一碗面争吵，女方想离婚，男方要求退彩礼</div>
+                    </a>
+                    <div></div>
+                  </div>
+                </div>
+                <div>
+                  <div><a href="https://www.sohu.com/a/386378671_161795?spm=smpc.home.city-shenzhen.4.15863454448559N0TwD9" title="深圳夫妻赶上班遇车子起火，用了4瓶灭火器火势却更大，烧剩车架" target="_blank" data-spm-data="4">
+                    <div>深圳夫妻赶上班遇车子起火，用了4瓶灭火器火势却更大，烧剩车架</div>
+                    </a>
+                    <div></div>
+                  </div>
+                </div>
+                <div>
+                  <div><a href="https://www.sohu.com/a/386215274_626425?spm=smpc.home.city-shenzhen.5.15863454448559N0TwD9" title="注意！临时停车路最新调整！宝安、龙岗有变，还有123条路可临停！" target="_blank" data-spm-data="5">
+                    <div>注意！临时停车路最新调整！宝安、龙岗有变，还有123条路可临停！</div>
+                    </a>
+                    <div></div>
+                  </div>
+                </div>
+                <div>
+                  <div><a href="https://www.sohu.com/a/386221370_355785?spm=smpc.home.city-shenzhen.6.15863454448559N0TwD9" title="宝安为何提升风险等级？武汉来深是否要隔离？官方答疑来了" target="_blank" data-spm-data="6">
+                    <div>宝安为何提升风险等级？武汉来深是否要隔离？官方答疑来了</div>
+                    </a>
+                    <div></div>
+                  </div>
+                </div>
+                <div>
+                  <div><a href="https://www.sohu.com/a/386142502_626425?spm=smpc.home.city-shenzhen.7.15863454448559N0TwD9" title="区事 | 临危受命坚守一线 攥指成拳攻坚克难——记深圳机场口岸宝安区疫情防控工作专班现场指挥组组长郭伟" target="_blank" data-spm-data="7">
+                    <div>区事 | 临危受命坚守一线 攥指成拳攻坚克难——记深圳机场口岸宝安区疫情防控工作专</div>
+                  </a></div>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="TabbedPanelsContent"><a href="https://www.sohu.com/a/386354947_100001551?scm=1002.590044.0.28b5-4ab?_f=index_select_6&amp;spm=smpc.home.choice.7.15863454448559N0TwD9" title="贾跃亭破产重组案预计4月下旬完成投票流程" target="_blank" data-spm-data="7">
+            <div>
+              <div><img src="https://5b0988e595225.cdn.sohucs.com/c_fill,w_300,h_135,g_faces,q_70/images/20200408/efcef404da5a4523be4e80fbefe298c3.jpeg" alt="" />
+                <div></div>
+              </div>
+              <div></div>
+              <h4>贾跃亭破产重组案预计4月下旬完成投票流程</h4>
+            </div>
           </a>
-        <p class="form-control-note mb-0 mt-3">&nbsp;</p></td>
-      </tr>
-    </table>
-  </div>
-  <div align="center"></div>
-  <div align="center"></div>
+            <div>
+              <div><a href="https://www.sohu.com/a/386356977_665455?scm=1002.590044.0.28b5-4ab?_f=index_select_7&amp;spm=smpc.home.choice.8.15863454448559N0TwD9" title="黑龙江单日新增输入病例25例，如何守好“国门线”" target="_blank" data-spm-data="8">
+                <div>黑龙江单日新增输入病例25例，如何守好&ldquo;国门线&rdquo;</div>
+                </a>
+                <div></div>
+              </div>
+            </div>
+            <div>
+              <div><a href="https://www.sohu.com/a/386377379_116152?scm=1002.590044.0.28b5-4ab?_f=index_select_8&amp;spm=smpc.home.choice.9.15863454448559N0TwD9" title="Acne Studios推出2020春夏丹宁风格单品" target="_blank" data-spm-data="9">
+                <div>Acne Studios推出2020春夏丹宁风格单品</div>
+                </a>
+                <div></div>
+              </div>
+            </div>
+            <div>
+              <div><a href="https://www.sohu.com/a/386085172_467279?scm=1002.590044.0.28b5-4ab?_f=index_select_9&amp;spm=smpc.home.choice.10.15863454448559N0TwD9" title="趋势|除了淡黄的长裙，还有红绿蓝紫裙值得我们穿上" target="_blank" data-spm-data="10">
+                <div>趋势|除了淡黄的长裙，还有红绿蓝紫裙值得我们穿上</div>
+                </a>
+                <div></div>
+              </div>
+            </div>
+            <div>
+              <div><a href="https://www.sohu.com/a/386362510_467279?scm=1002.590044.0.28b5-4ab?_f=index_select_10&amp;spm=smpc.home.choice.11.15863454448559N0TwD9" title="潮流实验室丨20个真实故事告诉你：月薪3000，配不配玩Switch？" target="_blank" data-spm-data="11">
+                <div>潮流实验室丨20个真实故事告诉你：月薪3000，配不配玩Switch？</div>
+                </a>
+                <div></div>
+              </div>
+            </div>
+            <div>
+              <div><a href="https://www.sohu.com/a/386289100_100001551?scm=1002.590044.0.28b5-4ab?_f=index_select_11&amp;spm=smpc.home.choice.12.15863454448559N0TwD9" title="舍得酒业重启沱牌酒贴牌业务：首单门槛200万，分析称意在消化低端酒产能" target="_blank" data-spm-data="12">
+                <div>舍得酒业重启沱牌酒贴牌业务：首单门槛200万，分析称意在消化低端酒产能</div>
+              </a></div>
+            </div>
+          </div>
+        </div>
+      </div></td>
+    </tr>
+    <tr>
+      <td height="1162"><div id="god_1" data-role="godR" data-god-id="15538" data-monitorkey="0cb08f62e3ef65783_0_0">
+        <div><img src="https://e8aeb8bbdbbd7.cdn.sohucs.com/lemon/2020/03/26/CgpU5F58eciADuXAAABrrlI_8VA217300x250.jpg" alt="2" /></div>
+        </div>
+        <div data-role="hot-news" data-spm="list">
+          <div>24小时热文</div>
+          <div data-spm-type="resource" data-spm-data="1" data-spm-content="a/386391629_157078">
+            <div><a href="https://www.sohu.com/a/386391629_157078?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.1.1586348146200UFBnQwA" target="_blank" data-spm-data="1"><img alt="1" src="https://5b0988e595225.cdn.sohucs.com/q_70,c_lfill,w_228,h_148,g_faces/images/20200408/de635eaa676d4d2e889b54e50dfba8f6.jpg" /><em>1</em></a></div>
+            <h4><a href="https://www.sohu.com/a/386391629_157078?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.1.1586348146200UFBnQwA" target="_blank" data-spm-type="content" data-spm-data="1">全国9省市已深度老龄化 这里竟比意大利还&ldquo;老&rdquo;？</a></h4>
+            <p><a href="https://www.sohu.com/a/386391629_157078?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.1.1586348146200UFBnQwA" target="_blank" data-spm-data="1"><em data-role="" data-id="386391629">70万</em> 阅读</a></p>
+          </div>
+          <div>
+            <ul>
+              <li data-spm-type="resource" data-spm-data="2" data-spm-content="a/386230762_115239"><em>2</em><a href="https://www.sohu.com/a/386230762_115239?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.2.1586348146200UFBnQwA" target="_blank" data-spm-type="content" data-spm-data="2">特朗普称将停止对世卫组织的资助</a><em><a href="https://www.sohu.com/a/386230762_115239?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.2.1586348146200UFBnQwA" target="_blank" data-spm-data="2"><em data-role="" data-id="386230762">41万</em> 阅读</a></em></li>
+              <li data-spm-type="resource" data-spm-data="3" data-spm-content="a/386214535_123753"><em>3</em><a href="https://www.sohu.com/a/386214535_123753?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.3.1586348146200UFBnQwA" target="_blank" data-spm-type="content" data-spm-data="3">山西新增25例境外输入确诊病例 均为经停太原入境人员</a><em><a href="https://www.sohu.com/a/386214535_123753?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.3.1586348146200UFBnQwA" target="_blank" data-spm-data="3"><em data-role="" data-id="386214535">91万</em> 阅读</a></em></li>
+              <li data-spm-type="resource" data-spm-data="4" data-spm-content="a/386284162_356941"><em>4</em><a href="https://www.sohu.com/a/386284162_356941?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.4.1586348146200UFBnQwA" target="_blank" data-spm-type="content" data-spm-data="4">染发惹非议、健身上热搜,14岁黄多多过度营销,她能成为中...</a><em><a href="https://www.sohu.com/a/386284162_356941?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.4.1586348146200UFBnQwA" target="_blank" data-spm-data="4"><em data-role="" data-id="386284162">146万</em> 阅读</a></em></li>
+              <li data-spm-type="resource" data-spm-data="5" data-spm-content="a/386247976_255783"><em>5</em><a href="https://www.sohu.com/a/386247976_255783?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.5.1586348146200UFBnQwA" target="_blank" data-spm-type="content" data-spm-data="5">儿子当官老子沾光 丈夫办事妻子收钱</a><em><a href="https://www.sohu.com/a/386247976_255783?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.5.1586348146200UFBnQwA" target="_blank" data-spm-data="5"><em data-role="" data-id="386247976">71万</em> 阅读</a></em></li>
+              <li data-spm-type="resource" data-spm-data="6" data-spm-content="a/386252904_260998"><em>6</em><a href="https://www.sohu.com/a/386252904_260998?scm=1002.3c0039.1ca01d9.0-0&amp;spm=smpc.home.list.6.1586348146200UFBnQwA" target="_blank" data-spm-type="content" data-spm-data="6">赵本山女儿直播卖酒被网友激怒：你就是喝白开水的命！爱买...</a></li>
+            </ul>
+          </div>
+      </div>
+        <div id="Accordion2" class="Accordion" tabindex="0">
+          <div class="AccordionPanel">
+            <div class="AccordionPanelTab">搞笑</div>
+            <div class="AccordionPanelContent">
+              <div data-spm-type="resource" data-spm-data="1">
+                <h4><a href="https://www.sohu.com/a/386415512_100175299?_f=index_funnews_0&amp;spm=smpc.home.fun-list.1.1586348746899g0D84DL" target="_blank" data-spm-data="1">开心一刻笑话：作为老大哥的我，每个星期都请兄弟几个出来吃吃饭</a></h4>
+              </div>
+              <div data-spm-type="resource" data-spm-data="2">
+                <div><a href="https://www.sohu.com/a/386413874_100175299?_f=index_funnews_1&amp;spm=smpc.home.fun-list.2.1586348746899g0D84DL" target="_blank" data-spm-data="2"><img data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/1592c0d849a2406d8834dcef20b7101e.jpeg" alt="" src="https://5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/1592c0d849a2406d8834dcef20b7101e.jpeg" data-processed="true" /></a></div>
+                <h4><a href="https://www.sohu.com/a/386413874_100175299?_f=index_funnews_1&amp;spm=smpc.home.fun-list.2.1586348746899g0D84DL" target="_blank" data-spm-data="2">开心一刻笑话：一哥们借我的宝马出去办事，给了我一把车钥匙</a></h4>
+              </div>
+              <div data-spm-type="resource" data-spm-data="3">
+                <div><a href="https://www.sohu.com/a/386411682_100175299?_f=index_funnews_2&amp;spm=smpc.home.fun-list.3.1586348746899g0D84DL" target="_blank" data-spm-data="3"><img data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/2a58da020e4f47329118d383a082f8f3.jpeg" alt="" src="https://5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/2a58da020e4f47329118d383a082f8f3.jpeg" data-processed="true" /></a></div>
+                <h4><a href="https://www.sohu.com/a/386411682_100175299?_f=index_funnews_2&amp;spm=smpc.home.fun-list.3.1586348746899g0D84DL" target="_blank" data-spm-data="3">开心一刻笑话：一次和媳妇拌嘴，第二天她不声不响回了娘家</a></h4>
+              </div>
+              <div data-spm-type="resource" data-spm-data="4">
+                <div><a href="https://www.sohu.com/a/386410378_100175299?_f=index_funnews_3&amp;spm=smpc.home.fun-list.4.1586348746899g0D84DL" target="_blank" data-spm-data="4"><img data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/975eb53b6238429da49b3474e2df3c27.jpeg" alt="" src="https://5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/975eb53b6238429da49b3474e2df3c27.jpeg" data-processed="true" /></a></div>
+                <h4><a href="https://www.sohu.com/a/386410378_100175299?_f=index_funnews_3&amp;spm=smpc.home.fun-list.4.1586348746899g0D84DL" target="_blank" data-spm-data="4">开心一刻笑话：今天我姐带着孩子回家，中午的时候孩子哭个不停</a></h4>
+              </div>
+              <div data-spm-type="resource" data-spm-data="5">
+                <div><a href="https://www.sohu.com/a/386420817_194387?_f=index_funnews_4&amp;spm=smpc.home.fun-list.5.1586348746899g0D84DL" target="_blank" data-spm-data="5"><img data-src="//5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/7dfb4259cf5b4ff288aa5b21169ac3b9.jpeg" alt="" src="https://5b0988e595225.cdn.sohucs.com/c_fill,w_90,h_60,g_faces,q_70/images/20200408/7dfb4259cf5b4ff288aa5b21169ac3b9.jpeg" data-processed="true" /></a></div>
+                <h4><a href="https://www.sohu.com/a/386420817_194387?_f=index_funnews_4&amp;spm=smpc.home.fun-list.5.1586348746899g0D84DL" target="_blank" data-spm-data="5">什么时候感觉自己智商被侮辱？</a></h4>
+              </div>
+            </div>
+          </div>
+</div>
+      <br /></td>
+    </tr>
+  </table>
+  <div id="Accordion1" class="Accordion" tabindex="0">
+    <div class="AccordionPanel">
+      <div class="AccordionPanelTab">版权信息</div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div>
+        <div>客服投诉热线：010-62726666</div>
+        <div>违法和不良信息举报电话：4006809007</div>
+        <div>客服邮箱：<a href="mailto:kf@vip.sohu.com">kf@vip.sohu.com</a></div>
+        <div>举报邮箱：<a href="mailto:jubaosohu@sohu-inc.com">jubaosohu@sohu-inc.com</a></div>
+      </div>
+    </div>
+</div>
+  <br />
+<br />
 </div>
 <script type="text/javascript">
-var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+var Accordion2 = new Spry.Widget.Accordion("Accordion2");
 </script>
 </body>
 </html>
